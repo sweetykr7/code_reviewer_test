@@ -15,13 +15,13 @@ export default function Home() {
           <div className="flex gap-4 justify-center animate-fadeInUp" style={{animationDelay: '0.4s', opacity: 0}}>
             <Link
               href="/blog"
-              className="bg-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-purple-700 hover:scale-110 transition-all duration-300 hover:shadow-lg"
+              className="bg-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-purple-700 hover:scale-110 transition-all duration-300 hover:shadow-2xl transform hover:rotate-1"
             >
               Read Blog
             </Link>
             <Link
               href="/about"
-              className="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold border-2 border-purple-600 hover:bg-purple-50 hover:scale-110 transition-all duration-300 hover:shadow-lg"
+              className="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold border-2 border-purple-600 hover:bg-purple-50 hover:scale-110 transition-all duration-300 hover:shadow-2xl transform hover:-rotate-1"
             >
               About Joey
             </Link>
@@ -33,8 +33,8 @@ export default function Home() {
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center animate-fadeIn">Featured Posts</h2>
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 hover:scale-105 animate-fadeInUp" style={{animationDelay: '0.2s', opacity: 0}}>
-            <div className="h-48 bg-gradient-to-br from-purple-400 to-pink-400 rounded-lg mb-4 animate-gradient"></div>
+          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:rotate-1 animate-fadeInUp cursor-pointer" style={{animationDelay: '0.2s', opacity: 0}}>
+            <div className="h-48 bg-gradient-to-br from-purple-400 to-pink-400 rounded-lg mb-4 animate-gradient transform hover:scale-105 transition-transform duration-300"></div>
             <h3 className="text-xl font-semibold mb-2">My Creative Journey</h3>
             <p className="text-gray-600 mb-4">Discover how I started my blogging adventure and what inspires me every day...</p>
             <Link href="/blog" className="text-purple-600 font-semibold hover:underline inline-flex items-center gap-1 group">
@@ -42,8 +42,8 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 hover:scale-105 animate-fadeInUp" style={{animationDelay: '0.4s', opacity: 0}}>
-            <div className="h-48 bg-gradient-to-br from-blue-400 to-purple-400 rounded-lg mb-4 animate-gradient"></div>
+          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 hover:scale-105 animate-fadeInUp cursor-pointer" style={{animationDelay: '0.4s', opacity: 0}}>
+            <div className="h-48 bg-gradient-to-br from-blue-400 to-purple-400 rounded-lg mb-4 animate-gradient transform hover:scale-105 transition-transform duration-300"></div>
             <h3 className="text-xl font-semibold mb-2">Tips for Creators</h3>
             <p className="text-gray-600 mb-4">Essential advice for anyone starting their creative journey in the digital world...</p>
             <Link href="/blog" className="text-purple-600 font-semibold hover:underline inline-flex items-center gap-1 group">
@@ -51,8 +51,8 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 hover:scale-105 animate-fadeInUp" style={{animationDelay: '0.6s', opacity: 0}}>
-            <div className="h-48 bg-gradient-to-br from-pink-400 to-red-400 rounded-lg mb-4 animate-gradient"></div>
+          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:-rotate-1 animate-fadeInUp cursor-pointer" style={{animationDelay: '0.6s', opacity: 0}}>
+            <div className="h-48 bg-gradient-to-br from-pink-400 to-red-400 rounded-lg mb-4 animate-gradient transform hover:scale-105 transition-transform duration-300"></div>
             <h3 className="text-xl font-semibold mb-2">Life & Inspiration</h3>
             <p className="text-gray-600 mb-4">Finding beauty in everyday moments and sharing stories that matter...</p>
             <Link href="/blog" className="text-purple-600 font-semibold hover:underline inline-flex items-center gap-1 group">
